@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
   
     width: 100%;
@@ -88,7 +87,7 @@ main .titulo{
 }
 main .titulo .sub-titulo{
     
-    color: blueviolet;
+    color:blueviolet;
     font-size: 50px;
     width: 400px;
     font-weight: bold;
@@ -220,21 +219,24 @@ section .ponto-partida p{
 }
 .oferta-carro{
      display: flex;
-     justify-content: flex-start;
-   
+     justify-content: flex-start;   
     height: 900px;
-    width: 100%;
+    
+}
+.oferta-carro img{
+    width: 60%;
 }
 
 
 
 .oferta-carro .texto-apresentacao{
     position: relative;
-    right: 30px;
+    right: 65px;
     top: 100px;
     height: 600px;    
     display: flex;
     flex-direction: column;
+    
   
    
 }
@@ -251,6 +253,7 @@ section .ponto-partida p{
     padding-right: 20px;
     font-size: 20px;
     color: #c5c4cc;
+   
     
     
 }
@@ -262,10 +265,317 @@ section .ponto-partida p{
     position: inherit;
     top: 250px;
     cursor: pointer;
+    
 }
 .oferta-carro .texto-apresentacao .img-direcao{
     position: relative;
     top: 310px;
-    right: 141px;
-    width: 100px;
+    left: 60px;
+    display: flex;
+    justify-content: flex-end;
+   
+   
+  
 }
+.oferta-carro .texto-apresentacao .img-direcao img{
+   width: 650px;
+}
+.seguranca{
+   
+    width: 50%;
+    position: relative;
+    top: 280px;
+    left: 150px;
+    margin-left: 60px;
+    height: 500px;
+}
+.seguranca img{
+    width: 130px;
+    height: 12px;
+}
+.seguranca h3{
+    color: blueviolet;
+    width: 170px;
+    font-size: 20px;
+    padding-top: 40px;
+    margin-top: 50px;
+    
+   
+}
+.seguranca p{
+    padding-top: 30px;
+    margin-top: 80px;
+    margin-right: 70px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    text-align: justify;
+    color: #c5c4cc;
+}
+.seguranca .texto-seguranca .underline{
+   width:36px;
+   height: 5px;
+   position: relative;
+   top: 10px;
+   right: 60px;
+}
+.seguranca h5{
+    color: #b2d0f5;
+    font-weight: bold;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+.area-download{
+    width: 100%;
+    position: relative;
+   
+    
+}
+.area-download img{
+    
+    width: 100%;
+    
+}
+.area-download .loja-download button{
+    border: solid 1px;
+    width: 160px;
+    height: 50px;
+    position: relative;
+    left: 700px;
+    bottom: 350px;
+    background: black;
+    border-radius: 5px;
+    text-align: justify;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.area-download .loja-download button img{
+    width: 30%;
+}
+.area-download .loja-download p{
+    position: relative;
+    width: 120px;
+    color:white;
+    left: 40px;
+    bottom: 45px;
+    padding-left: 10px;
+    padding-bottom: 2px;    
+    
+}
+.area-download .loja-download h5{
+    position: relative;
+    left: 700px;
+    bottom: 400px;
+    width: 39%;
+    color: #5711a5;
+    font-size: 30px;
+}
+.area-download .loja-download .xadrez{
+    position: relative;
+    left: 700px;
+    bottom: 450px;
+    width: 8%;
+   filter: grayscale(80%);
+    
+}
+.registro{
+   margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.registro-piloto{
+    display: flex;
+    width: 340px;
+}
+.registro-piloto img{
+    height: 50px;
+    margin-top: 10px;
+}
+.registro h4{
+    color: blueviolet;
+    font-size: 30px;
+    width: 350px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.registro-seta{
+    display: flex;
+    width: 350px;
+}
+.registro-seta img{
+    height: 50px;
+    margin-top: 10px;
+}
+.registro-traco{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.traco1,.traco2{
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+    height: 10px;
+    margin-left: 45px;   
+    margin-top: 30px;
+   
+}
+footer{
+    width: 100%;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+footer img{
+    width: 100%;
+}
+.rodape{
+    position: absolute;    
+    width: 100%;   
+    display: flex;
+    justify-content: space-around;
+   
+
+    
+}
+.rodape .info{
+    
+    position: relative;
+    top: 80px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.rodape .info img{
+    width: 20px;
+    height: 28px;
+    margin-top: 5px;
+}
+.rodape .info h2{
+    font-weight: bold;
+    color: white;
+}
+.rodape .drive{
+   
+    display: flex;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.rodape .interrogacao{
+   
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.rodape .interrogacao p{
+    padding-top: 10px;    
+    color: white;
+    font-size: 20px;
+}
+.rodape .interrogacao img{
+    width: 30px;
+    height: 25px;
+}
+.rodape .idioma{
+  
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+.rodape .idioma p{
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.rodape .idioma img{
+    width: 30px;
+   
+}
+.rodape .sobre{
+   
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+.rodape .sobre h5{
+    font-size: 20px;
+    color: white;
+    
+}
+.rodape .sobre ul li{
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+}
+.rodape .produto{
+   
+    position: relative;
+    top: 80px;
+    
+}
+.rodape .produto h5{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+.rodape .produto ul li{
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+}
+.creditos{
+   
+    height: 60px;
+    width: 100%;
+    background: #5711a5;
+    display: flex;
+    justify-content:center;
+}
+.creditos .contato{
+    width: 75%;
+    height: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-top: solid 1px;
+    border-color: lightslategray;
+   
+    
+}
+.creditos .contato p{
+    padding-top: 15px;
+    color: white;
+    margin-right: 520px;
+}
+.creditos .contato img{
+    width: 30px;    
+    padding-top: 10px;
+   
+    
+}
+.creditos .redes img{
+    width: 43px;
+    height: 40px;
+}
+@media screen and (min-width:1024px){
+
+}
+@media screen and(min-width:768px) and (max-width:1023px){
+
+}
+@media screen and (max-width:767px){
+    
+}
+
